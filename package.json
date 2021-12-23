@@ -1,0 +1,20 @@
+{
+  "name": "seleniumwithjavascript",
+  "version": "1.0.0",
+  "description": "Sample automation framework in javascript using selenium",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mocha-allure-reporter --timeout=30000",
+    "report": "allure generate allure-results --clean -o allure-report && allure open allure-report"
+  },
+  "author": "Aditya Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "chromedriver": "^95.0.0",
+    "geckodriver": "^2.0.4",
+    "mocha": "^9.1.3",
+    "mocha-allure-reporter": "^1.4.0",
+    "selenium-webdriver": "^4.0.0"
+  }
+}
