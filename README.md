@@ -9,6 +9,7 @@ Sample Selenium automation framework written in JavaScript
 ## Features:
 - Page Object Model
 - Reports
+- Allure step method implementation with Page Object Model
 
 ## Execution
 Run sample test
